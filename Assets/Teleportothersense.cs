@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TeleportPlayer : MonoBehaviour
+public class Teleportothersense : MonoBehaviour
 {
     Rigidbody rigidbody;
     
     //LA VITESSE DE LA PLATEFORME
     public float speed = 5f;
     //ON DONNE UNE DIRECTION DE DEPART A LA PLATEFORME
-    Vector3 direction = new Vector3(0f, 0f, 5f);
+    Vector3 direction = new Vector3(0f, 0f, -5f);
     private Vector3 positionInitiale;
     void Start()
     {

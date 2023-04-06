@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Teleportothersense : MonoBehaviour
+public class PlaqueBougeAutre : MonoBehaviour
 {
     Rigidbody rigidbody;
     

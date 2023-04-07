@@ -11,6 +11,7 @@ public class PlayerTP : MonoBehaviour
         //ICI JE RECUPERE LA POSITION DE DEPART DU JOUEUR GRACE A transform.position
 
         lastCheckpointPosition = transform.position;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame

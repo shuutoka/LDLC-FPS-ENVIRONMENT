@@ -8,6 +8,14 @@ public class cubelave : MonoBehaviour
     void Start()
     {
         rigidbody = GetComponent<Rigidbody>();
+        lastKnownPosition = transform.position;
+
+    }
+   public Vector3 lastKnownPosition;
+
+    public void ResetPosition()
+    {
+        transform.position = lastKnownPosition;
     }
 
     void FixedUpdate()

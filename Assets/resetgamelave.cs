@@ -10,7 +10,9 @@ public class resetgamelave : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             Debug.Log("Il y a collision avec le joueur");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            FindObjectOfType<PlayerTP>().ResetPosition();
+            GetComponent<cubelave>().ResetPosition();
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }

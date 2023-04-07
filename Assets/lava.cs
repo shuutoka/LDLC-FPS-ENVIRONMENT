@@ -4,23 +4,18 @@ public class lava : MonoBehaviour
 {
     public float speed = 5.0f; // Vitesse de levage de la plateforme
 
-    private bool isMovingUp = false; // Variable booléenne pour déterminer si la plateforme est en train de monter
-    private Vector3 startPosition; // Position de départ de la plateforme
-
-    void Start()
-    {
-        startPosition = transform.position; // On enregistre la position de départ de la plateforme
-    }
-
+    private bool isMovingUp = false; // Variable boolï¿½enne pour dï¿½terminer si la plateforme est en train de monter
+    private Vector3 startPosition; // Position de dï¿½part de la plateforme
+ 
     void Update()
     {
         if (isMovingUp) // Si la plateforme est en train de monter
         {
-            transform.Translate(Vector3.up * speed * Time.deltaTime); // On déplace la plateforme vers le haut en fonction de la vitesse de levage
+            transform.Translate(Vector3.up * speed * Time.deltaTime); // On dï¿½place la plateforme vers le haut en fonction de la vitesse de levage
         }
     }
 
-    public void StartMovingUp() // Méthode pour commencer à lever la plateforme
+    public void StartMovingUp() // Mï¿½thode pour commencer ï¿½ lever la plateforme
     {
         isMovingUp = true;
     }

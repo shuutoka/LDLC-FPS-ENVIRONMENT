@@ -32227,7 +32227,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1000014032264494, guid: b30b084d6775541f6a40b8a2124fd2ef, type: 3}
       propertyPath: m_Name
-      value: Car_17A
+      value: Carfin
       objectReference: {fileID: 0}
     - target: {fileID: 4000012887499376, guid: b30b084d6775541f6a40b8a2124fd2ef, type: 3}
       propertyPath: m_RootOrder
@@ -32280,6 +32280,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b30b084d6775541f6a40b8a2124fd2ef, type: 3}
+--- !u!1 &1767569105 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000014032264494, guid: b30b084d6775541f6a40b8a2124fd2ef,
+    type: 3}
+  m_PrefabInstance: {fileID: 1767569104}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1767569106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767569105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73fea804dc06240dc9d561d6024b4ddf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1767731288
 PrefabInstance:
   m_ObjectHideFlags: 0

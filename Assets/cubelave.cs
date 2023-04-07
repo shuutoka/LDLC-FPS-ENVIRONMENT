@@ -18,6 +18,11 @@ public class cubelave : MonoBehaviour
         transform.position = lastKnownPosition;
     }
 
+    public void SavePosition()
+    {
+        lastKnownPosition = transform.position;
+    }
+
     void FixedUpdate()
     {
         Vector3 currentPosition = transform.position;
